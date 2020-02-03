@@ -23,186 +23,204 @@
     />
   </head>
   <body>
-    <div class="bg-accent-2 text-white navbar-dark navcol">
-      <div class="container">
-        <nav class="navbar px-0 navbar-expand-lg navbar-dark navbarbg">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <img class="logo" src="logo.jpg" alt="Main logo">
-              <a href="index.html" class="pl-md-0 p-3 text-white">Start</a>
-              <a href="app.html" class="p-3 text-decoration-none text-white"
-                >App example</a
-              >
-              <a href="form.html" class="p-3 text-decoration-none text-white"
-                >Form example</a
-              >
+    <!-- Image and text -->
+    <nav class="navbar navbar-light bg-light navsize">
+      <a class="navbar-brand" href="#">
+        <img
+          src="logo.jpg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+        We Thai Resturant & Bar
+      </a>
+      <div class="mt-1">
+        <a
+          href="#scroll-target"
+          class="btn btn-accent-1 btn-md my-3 mx-1 text-left"
+        >
+          <span>Location</span>
+        </a>
+
+        <a
+          href="https://www.beyondmenu.com/41328/houston/we-thai-restaurant-and-bar-houston-77077.aspx?utm_source=satellite&utm_medium=home_order&pk_vid=10c9ee2b687255c81580746661745749"
+          class="btn btn-accent-1 btn-md my-3 mx-1 text-left"
+        >
+          <span>Order Online</span>
+        </a>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">
+            This is a modified jumbotron that occupies the entire horizontal
+            space of its parent.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="dish1.jpg" alt="First slide" />
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="dish2.jpg" alt="Second slide" />
+        </div>
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="dish3.jpg" alt="Third slide" />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!--Section: Contact v.1-->
+    <section class="section pb-5">
+      <!--Section heading-->
+      <h2 class="section-heading h1 pt-4 maptext">About us:</h2>
+      <!--Section description-->
+      <div>
+        <ul class="section-description pb-4 maptext">
+          We Thai Restaurant & Bar offers delicious dining and takeout to
+          Houston, TX.
+        </ul>
+        <ul class="section-description pb-4 maptext">
+          We Thai Restaurant & Bar is a cornerstone in the Houston community and
+          has been recognized for its outstanding Thai cuisine, excellent
+          service and friendly staff.
+        </ul>
+        <ul class="section-description pb-4 maptext">
+          Our Thai restaurant is known for its modern interpretation of classic
+          dishes and its insistence on only using high quality fresh
+          ingredients.
+        </ul>
+      </div>
+      <div class="row">
+        <!--Grid column-->
+        <div id="scroll-target" class="col-lg-5 mb-4">
+          <!--Form with header-->
+          <div class="card">
+            <div class="card-body">
+              <!--Header-->
+              <div class="form-header blue accent-1">
+                <h3>
+                  <i class="fas fa-envelope"></i> Sign up to hear about our
+                  specials:
+                </h3>
+              </div>
+
+              <p>PS: we send out a free meal every month!</p>
+              <br />
+
+              <!--Body-->
+              <div class="md-form">
+                <i class="fas fa-user prefix grey-text"></i>
+                <input type="text" id="form-name" class="form-control" />
+                <label for="form-name">Your name</label>
+              </div>
+
+              <div class="md-form">
+                <i class="fas fa-envelope prefix grey-text"></i>
+                <input type="text" id="form-email" class="form-control" />
+                <label for="form-email">Your email</label>
+              </div>
+
+              <div class="md-form">
+                <i class="fas fa-tag prefix grey-text"></i>
+                <input type="text" id="form-Subject" class="form-control" />
+                <label for="form-Subject">Subject</label>
+              </div>
+
+              <div class="md-form">
+                <i class="fas fa-pencil-alt prefix grey-text"></i>
+                <textarea
+                  id="form-text"
+                  class="form-control md-textarea"
+                  rows="3"
+                ></textarea>
+                <label for="form-text">Icon Prefix</label>
+              </div>
+
+              <div class="text-center mt-4">
+                <button class="btn btn-light-blue">Submit</button>
+              </div>
             </div>
           </div>
-        </nav>
-      </div>
-    </div>
-
-    <div class="jumbotron bg-accent-2 text-white mb-0">
-      <div class="container">
-        <h1 class="display-4 text-white">We Thai Resturant and Bar</h1>
-        <div class="lead mb-3">
-          We offer delicious Thai dining and takeout to Houston, TX.
+          <!--Form with header-->
         </div>
-        <div class="mt-4">
-          <a
-            href="#scroll-target"
-            class="btn btn-outline-light btn-hover-text-accent-2 btn-lg my-3 mx-1 text-left"
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-7">
+          <!--Google map-->
+          <div
+            id="map-container-google-11"
+            class="z-depth-1-half map-container-6"
+            style="height: 400px"
           >
-            <span>Location</span>
-          </a>
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2Zikf_XcQIYROZFhOtAsWKk&key=AIzaSyC0_OFv-RaUqS8xYYSUs6dq1jxHyRgCrdg"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen
+            ></iframe>
+          </div>
 
-          <a
-            href="https://www.beyondmenu.com/41328/houston/we-thai-restaurant-and-bar-houston-77077.aspx?utm_source=satellite&utm_medium=home_order&pk_vid=10c9ee2b687255c81580746661745749"
-            class="btn btn-accent-1 btn-lg my-3 mx-1 text-left"
-          >
-            <span>Order Online</span>
-          </a>
+          <br />
+          <div class="row text-center buttontext">
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"
+                ><i class="fas fa-map-marker-alt"></i
+              ></a>
+              <p>2575 S Dairy Ashford St Ste A</p>
+              <p>Houston, TX 77077</p>
+              <p>United States</p>
+            </div>
+
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"
+                ><i class="fas fa-phone"></i
+              ></a>
+              <p>(281)-759-5400</p>
+              <p>Mon - Fri: 11:00AM-3:00PM & 5:00PM-10:00PM</p>
+              <p>Sat - Sun: 01:00 PM - 09:00 PM</p>
+            </div>
+
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"
+                ><i class="fas fa-envelope"></i
+              ></a>
+              <p>info@gmail.com</p>
+              <p>sale@gmail.com</p>
+            </div>
+          </div>
         </div>
+        <!--Grid column-->
       </div>
-    </div>
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="dish1.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="dish2.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item active">
-            <img class="d-block img-fluid" src="dish3.jpg" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <!--Section: Contact v.1-->
-<section id="scroll-target" class="section pb-5">
-
-  <!--Section heading-->
-  <h2 class="section-heading h1 pt-4 maptext">About us</h2>
-  <!--Section description-->
-  <p class="section-description pb-4 maptext">We Thai Restaurant & Bar offers delicious dining and takeout to Houston, TX. <br>
-   We Thai Restaurant & Bar is a cornerstone in the Houston community and has been recognized for its outstanding Thai cuisine, excellent service and friendly staff. <br>
-     Our Thai restaurant is known for its modern interpretation of classic dishes and its insistence on only using high quality fresh ingredients.</p>
-  <div class="row">
-
-    <!--Grid column-->
-    <div class="col-lg-5 mb-4">
-
-      <!--Form with header-->
-      <div class="card">
-
-        <div class="card-body">
-          <!--Header-->
-          <div class="form-header blue accent-1">
-            <h3><i class="fas fa-envelope"></i> Sign up to hear about our specials:</h3>
-          </div>
-
-          <p>PS: we send out a free meal every month!</p>
-          <br>
-
-          <!--Body-->
-          <div class="md-form">
-            <i class="fas fa-user prefix grey-text"></i>
-            <input type="text" id="form-name" class="form-control">
-            <label for="form-name">Your name</label>
-          </div>
-
-          <div class="md-form">
-            <i class="fas fa-envelope prefix grey-text"></i>
-            <input type="text" id="form-email" class="form-control">
-            <label for="form-email">Your email</label>
-          </div>
-
-          <div class="md-form">
-            <i class="fas fa-tag prefix grey-text"></i>
-            <input type="text" id="form-Subject" class="form-control">
-            <label for="form-Subject">Subject</label>
-          </div>
-
-          <div class="md-form">
-            <i class="fas fa-pencil-alt prefix grey-text"></i>
-            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-            <label for="form-text">Icon Prefix</label>
-          </div>
-
-          <div class="text-center mt-4">
-            <button class="btn btn-light-blue">Submit</button>
-          </div>
-
-        </div>
-
-      </div>
-      <!--Form with header-->
-
-    </div>
-    <!--Grid column-->
-
-    <!--Grid column-->
-    <div class="col-lg-7">
-
-      <!--Google map-->
-      <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
-        <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2Zikf_XcQIYROZFhOtAsWKk&key=AIzaSyC0_OFv-RaUqS8xYYSUs6dq1jxHyRgCrdg"
-          frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-
-      <br>
-      <div class="row text-center buttontext">
-        <div class="col-md-4">
-          <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
-          <p>2575 S Dairy Ashford St Ste A</p>
-          <p>Houston, TX 77077
-          </p>
-          <p>United States</p>
-        </div>
-
-        <div class="col-md-4">
-          <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
-          <p>(281)-759-5400</p>
-          <p>Mon - Fri: 11:00AM-3:00PM & 5:00PM-10:00PM</p>
-          <p>Sat - Sun: 01:00 PM - 09:00 PM</p>
-
-        </div>
-
-        <div class="col-md-4">
-          <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
-          <p>info@gmail.com</p>
-          <p>sale@gmail.com</p>
-        </div>
-      </div>
-
-    </div>
-    <!--Grid column-->
-
-  </div>
-
-</section>
-    </div>
-
-
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
