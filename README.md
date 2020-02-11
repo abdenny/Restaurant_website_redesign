@@ -2,6 +2,7 @@
 
 <h3>General</h3>
 Redisgned a website for a local Thai restaurant with an outdated website. 
+<br>
 <a href="https://www.wethairestaurant.com">Original Website</a>
 <a href="https://wethai.netlify.com/">Redesign</a>
 
