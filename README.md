@@ -13,4 +13,5 @@ Redisgned a website for a local Thai restaurant with an outdated website.
   <li>CSS</li>
   <li>Bootstrap 4</li>
   <li>Netlify</li>
+  <li>Google Maps API</li>
 </ul>
