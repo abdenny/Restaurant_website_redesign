@@ -4,6 +4,7 @@
 Redisgned a website for a local Thai restaurant with an outdated website. 
 <br>
 <a href="https://www.wethairestaurant.com">Original Website</a>
+<br>
 <a href="https://wethai.netlify.com/">Redesign</a>
 
 <h3>Technologies Used</h3>
